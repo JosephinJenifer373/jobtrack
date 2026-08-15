@@ -1,16 +1,115 @@
-# React + Vite
+# JobTrack 📋
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern **Job Application Tracking System** built with React.js to help job seekers organize and manage their applications through a visual Kanban board.
 
-Currently, two official plugins are available:
+## 🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+JobTrack allows users to track their job applications across different stages of the hiring process.
 
-## React Compiler
+Instead of managing applications through spreadsheets or scattered notes, JobTrack provides a simple visual workflow where each application can be organized by its current status.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+* 📋 Kanban-style job application board
+* 🔄 Organize applications by hiring stage
+* ➕ Add and manage job applications
+* 🏷️ Categorize applications based on their current status
+* 🎨 Clean and responsive user interface
+* ⚡ Fast development with Vite
+* 📱 Responsive design for different screen sizes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🗂️ Application Stages
+
+Applications can be organized into stages such as:
+
+* **Wishlist**
+* **Applied**
+* **Interview**
+* **Offer**
+* **Rejected**
+
+This makes it easy to understand the current status of every application at a glance.
+
+## 🛠️ Tech Stack
+
+* **React.js**
+* **JavaScript (ES6+)**
+* **Vite**
+* **HTML5**
+* **CSS3**
+* **Bootstrap**
+
+## 📂 Project Structure
+
+```text
+jobtrack/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/JosephinJenifer373/jobtrack.git
+```
+
+Navigate to the project:
+
+```bash
+cd jobtrack
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at the local development URL shown in your terminal.
+
+## 🎯 Project Goal
+
+The goal of JobTrack is to build a practical React application that demonstrates frontend development skills including:
+
+* Component-based architecture
+* React state management
+* Event handling
+* Dynamic UI rendering
+* Responsive design
+* User-friendly application workflows
+
+## 🔮 Future Enhancements
+
+Planned improvements include:
+
+* 💾 Persistent application storage
+* 🔍 Search and filtering
+* 📊 Application statistics and dashboard
+* 📤 Excel/CSV export
+* 🔐 User authentication
+* ☁️ Backend API integration
+* 📱 Improved mobile experience
+
+## 👩‍💻 Author
+
+**Josephinjenifer S**
+
+React.js Frontend Developer
